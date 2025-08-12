@@ -1,0 +1,30 @@
+body{
+    justify-content: center;
+    padding-left: 35%;
+}
+.container{
+   
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:13px;
+    margin-top: 1%;
+    
+    
+    border: solid 1px black;
+}
+span{
+    font-size: 55px;
+    cursor: pointer;
+   
+}
+.staractive{
+    color:orange;
+    transition: color 0.3s ease-in-out;
+   
+}
+.satr{
+    color:black;
+}
